@@ -3,7 +3,7 @@
 $database = new mysqli( 'localhost', 'root', '', 'form');
 
 if( isset( $_POST["email"] ) ){
-    // sleep(2);
+
     /**
      * User Input Validation
      *
